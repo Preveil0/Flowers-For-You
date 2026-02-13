@@ -1,4 +1,4 @@
-*,
+﻿*,
 *::after,
 *::before {
   padding: 0;
@@ -1557,5 +1557,7 @@ body {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
-@ m e d i a   s c r e e n   a n d   ( o r i e n t a t i o n :   p o r t r a i t )   {   . f l o w e r s   {   t r a n s f o r m :   s c a l e ( 1 . 5 ) ;   }   }  
+@ m e d i a   s c r e e n   a n d   ( o r i e n t a t i o n :   p o r t r a i t )   {   . f l o w e r s   {   t r a n s f o r m :   s c a l e ( 1 . 5 ) ;   }   } 
  
+ 
+@media screen and (orientation: portrait) { .flowers { transform: scale(0.9); } }
