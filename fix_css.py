@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,500;1,900&display=swap');
+
+css_content = r"""@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,500;1,900&display=swap');
 *{
     font-family: 'Dancing Script', cursive;
 }
@@ -222,7 +223,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +235,7 @@
     text-align: center;
     color: white;
     font-family: 'Dancing Script', cursive;
-    animation: pulse 1s infinite;
+    animation: pulse 2s infinite;
 }
 
 .overlay-content h1 {
@@ -256,3 +257,7 @@
     opacity: 0;
     pointer-events: none;
 }
+"""
+
+with open("css/style.css", "w", encoding="utf-8") as f:
+    f.write(css_content)
